@@ -1,0 +1,166 @@
+header {
+    background: linear-gradient(black, grey);
+    width: 100%;
+    height: 100px;
+    display: inline;
+    margin: 0 10% 0 420px;
+    text-align: center;
+    font-size: 34px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;  
+    font-weight: bold;
+}
+
+body{
+    background: linear-gradient(grey, black);
+    width: 100%;
+    height:940px;
+
+}
+
+.inputTexto{
+    display: block;
+    background: rgb(160, 157, 157);
+    height: 400px;
+    width: 450px;
+    margin: 25px 0 0 80px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 1%;
+}
+
+
+.textoDecodificado{
+    position: absolute;
+    background: rgb(160, 157, 157);
+    top: 18%;
+    left: 60%;
+    height: 400px;
+    width: 450px;
+    color: black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold; 
+    border-radius: 1%;
+    
+
+}
+
+
+.botaoCriptografar{
+    background: black;
+    width: 200px;
+    height: 50px;
+    margin: 10px 0 10px 90px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    display: inline;
+    color: white;
+    border: solid;
+    border-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+.botaoCriptografar:hover{
+    background: grey;
+    color: black;
+    border-color: white;
+    font-size: 20px;
+    transition: 1s;
+}
+
+.botaoDescriptografar{
+    background:black;
+    width: 200px;
+    height: 50px;
+    margin: 10px 0 10px 30px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    display: inline;
+    color: white;
+    border: solid;
+    border-color:white;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+.botaoDescriptografar:hover{
+    background: grey;
+    color:black;
+    border-color: white;
+    font-size: 17px;
+    transition: 1s;
+    
+    
+}
+
+.botao-copiar{
+    position: absolute;
+    background: black;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    display: inline;
+    color: white;
+    border: solid;
+    border-color: white;
+    border-radius: 10px;
+    bottom: 80px;
+    left: 70%;
+    cursor: pointer;
+   
+}
+
+.botao-copiar:hover{
+    background:grey;
+    color: black;
+    border-color: white;
+    font-size: 22px;
+    transition: 1s;
+    
+}
+
+.footer-div {
+    position: fixed;
+    display: inline;
+    background: grey;
+    width: 100%;
+	padding: 10px;
+	color: black;
+	bottom: 0;
+	text-align: center;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+@media screen and (max-width:480px) {
+    html, header, body, .footer-div {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+}
+
+
+
+
